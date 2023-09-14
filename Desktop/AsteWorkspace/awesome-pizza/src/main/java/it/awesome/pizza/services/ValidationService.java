@@ -29,21 +29,4 @@ public class ValidationService {
 
 		return validation;
 	}
-
-//
-//	private Query buildQuery(String multiCompany, String gasDay, String verBusiness, List<String> remi) {
-//
-//		Query query = new Query();
-//
-//		query.addCriteria(Criteria.where(Constants.MULTICOMPANY).is(multiCompany));
-//
-//		query.addCriteria(Criteria.where(Constants.GAS_DAY).is(gasDay));
-//
-//		query.addCriteria(Criteria.where(Constants.ALLOC_VERBUSINESS).is(Integer.valueOf(verBusiness)));
-//
-//		query.addCriteria(new Criteria().and(Constants.REMI_COD).in(remi));
-//
-//		return query;
-//
-//	}
 }
